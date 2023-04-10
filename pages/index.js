@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { FaHamburger } from "react-icons/fa";
-import Script from 'next/script';
+// import Script from 'next/script';
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -23,7 +23,9 @@ export default function Home() {
       <Head>
         <title>Maralu company web</title>
         <link rel="icon" href="/favicon.ico" />
-        <Script src="../script/script.js" />
+        <script type="text/javascript" src="../script/script.js"></script>
+
+        {/* <Script src="../script/script.js" /> */}
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:px-40">
