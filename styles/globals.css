@@ -30,3 +30,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.custom-img {
+  background: url('../public/bg-taxs.jpg') rgba(4, 52, 71, 0.683);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
